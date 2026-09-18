@@ -18,11 +18,11 @@ const Header = ({ onsubmit }) => {
       <h1 className="text-3xl font-bold sm:text-4xl">
         action finest <span className="text-red-400">movies</span>
       </h1>
-      <form onSubmit={onsubnitMovie} className="mt-2 flex   justify-center">
+      <form onSubmit={onsubnitMovie} className="mt-2 flex   justify-center ">
         <input
           onChange={handleSearch}
           value={searchMovie}
-          className="border max-w-3xl border-gray-200 rounded mx-2 p-1 outline-0 text-gray-200 sm:w-60"
+          className="border max-w-3xl border-gray-200 rounded mx-2 p-1 w-full outline-0 text-gray-200 sm:w-60"
           type="text"
           placeholder="search movies"
         />
