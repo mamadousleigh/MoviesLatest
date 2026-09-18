@@ -12,6 +12,7 @@ const Header = ({ onsubmit }) => {
     console.log(searchMovie);
 
     onsubmit(searchMovie);
+    setSearchMovie("");
   };
   return (
     <div className="flex flex-col items-center fixed w-full top-0 justify-around bg-blue-400 text-2xl text-white capitalize p-2 sm:flex-row sm:justify-around ">
